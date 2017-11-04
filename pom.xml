@@ -10,13 +10,14 @@
 	</properties>
 
 	<dependencies>
-		<!-- Test -->
+		<!-- Junit -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- Selenium -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -41,8 +42,6 @@
 			<artifactId>geb-spock</artifactId>
 			<version>0.12.2</version>
 		</dependency>
-
-
 
 	</dependencies>
 

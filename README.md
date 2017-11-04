@@ -1,6 +1,4 @@
-# zac-selenium-test
-junit
-org.seleniumhq.selenium
+# zac-automated-test
 
 $ mvn clean
 $ mvn clean package
