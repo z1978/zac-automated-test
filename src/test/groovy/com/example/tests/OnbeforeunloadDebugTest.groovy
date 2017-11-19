@@ -44,8 +44,8 @@ class OnbeforeunloadDebugTest extends FirefoxTestBase {
 		try {
 			Alert alert = driver.switchTo().alert()
 			println alert.getText()
-			alert.accept()
-//			alert.dismiss()
+//			alert.accept()
+			alert.dismiss()
 //			alert.sendKeys(Keys.ENTER)
 		} catch (Exception e) {
 			e.cause ==null

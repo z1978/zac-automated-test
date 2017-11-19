@@ -13,6 +13,6 @@ class LocalhostTest extends FirefoxTestBase {
 
 		then:
 		at LocalhostHomePage
+		search.button.click()
 	}
-
 }
